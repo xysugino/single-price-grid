@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color:hsl(204, 43%, 93%);
+  font-family: Karla;
+  font-size: 0.8rem;
+}
+
+h2{
+  font-size: 1.1rem;
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+.title-join{
+  color: hsl(179, 62%, 43%);
+}
+
+.full-page-wrapper{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.join-section{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.2rem;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.money-back-text{
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 15px;
+}
+
+.join-description-text-mobile
+{
+  color: hsl(218, 22%, 67%);
+  
+}
+
+.join-description-text-desktop{
+  display: none;
+}
+
+.subscription-section{
+  background-color: hsl(179, 62%, 43%);
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.2rem;
+  
+}
+
+.subscription-price{
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+  
+}
+
+.price{
+  font-size: 1.8rem;
+  color: white;
+  padding-right: 10px;
+}
+
+.month{
+  color: hsl(204, 43%, 93%);
+}
+
+.length{
+  color:hsl(204, 43%, 93%) ;
+  padding-bottom: 20px;
+}
+
+button{
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.why-section{
+  background-color: hsl(179, 65%, 49%);
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.2rem;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.why-description-text-mobile{
+  color: hsl(204, 43%, 93%);
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:768px){
+
+  .wrapper{
+    width: 45%;
+  }
+
+  .subscription-why-container{
+    display: flex;
+  }
+
+  .subscription-section{
+    flex: 1;
+    border-bottom-left-radius: 0.5em ;
+  }
+
+  .why-section{
+    flex: 1;
+    border-bottom-left-radius: 0em;
+  }
+  .join-description-text-mobile{
+    display: none;
+
+  }
+
+  .join-description-text-desktop{
+    display: block;
+    color: hsl(218, 22%, 67%);
+  }
+
+
+
+}

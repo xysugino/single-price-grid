@@ -9,6 +9,12 @@ html{
   font-size: 0.8rem;
 }
 
+h1{
+  font-size: 1.1rem;
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
 h2{
   font-size: 1.1rem;
   color: white;
@@ -92,6 +98,12 @@ button{
   padding: 1em;
   border: none;
   border-radius: 0.5em;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(71, 60%, 45%);
+
 }
 
 .why-section{
